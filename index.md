@@ -2,6 +2,8 @@ Bryce Crouse's Programming 1 Portfolio(2018-2019).
 Contact me at brycecrouse@gmail.com.
 
 First Semester Asteroids Clone:
+![AsteroidsStartScreen](images/asteroidsIntro.png)
+![AsteroidsGamePlay](images/asteroidsgame1.png)
 ![AsteroidsGameOverImage](images/asteroidsgame2.png)
 
 
