@@ -17,7 +17,7 @@ First Semester Processing Java Calculator (Completed Nov. 2018):
 
 Etch-a-sketch w/ 360 degree movement:
 An etch-a-sketch project that I modified so you can have 360 degree motion. You can modify the source code to get it to draw cool shapes. Works kind of like the editor in Terrapin Logo.
-![Shape I drew with this](EtchASketch/Etchasketch.png)
+![Shape I drew with this](EtchASketch/etchasketch.png)
 [Source code](https://github.com/maadscientist/Programming1Portfolio/blob/master/EtchASketch/Etchasketch.pde)
 
 
@@ -25,3 +25,8 @@ Random Face Generator
 Randomly generates a face every few seconds. You can click to save the face as a png.
 ![Face 1](images/line-000029.png)
 ![Face 2](images/line-000096.png)
+[Source code](https://github.com/maadscientist/Programming1Portfolio/blob/master/FaceGenerator)
+
+Igpay Atinlay converter
+Converts some text you input into pig latin. Written in python. 
+[Source code](https://github.com/maadscientist/Programming1Portfolio/blob/master/pigLatin.py)
