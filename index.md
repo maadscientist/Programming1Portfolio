@@ -1,4 +1,4 @@
-Bryce Crouse's Programming 1 Portfolio(2018-2019).
+Bryce Crouse's Programming 1 Portfolio(2018-2019). I'm certified in Java, Python, C++, and C#. 
 Contact me at brycecrouse@gmail.com.
 
 First Semester Asteroids Clone:
