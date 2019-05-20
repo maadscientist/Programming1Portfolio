@@ -27,6 +27,7 @@ Randomly generates a face every few seconds. You can click to save the face as a
 ![Face 2](images/line-000096.png)
 [Source code](https://github.com/maadscientist/Programming1Portfolio/blob/master/FaceGenerator)
 
-Igpay Atinlay converter
+Igpay Atinlay converter:
+
 Converts some text you input into pig latin. Written in python. 
 [Source code](https://github.com/maadscientist/Programming1Portfolio/blob/master/pigLatin.py)
