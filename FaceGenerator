@@ -1,1 +1,50 @@
+int x, y, a, b;
 
+void setup() {
+  size(500, 500);
+  frameRate(1);
+}
+void draw() {
+  background(255);
+  drawHead();
+}
+
+void mouseClicked() {
+  saveFrame("line-######.png");
+}
+void drawHead() {
+  strokeWeight(5);
+  fill(random(230, 255), random(230, 250), 0);
+  ellipse(width/2, height/2, random(width*0.55, width*0.75), random(height*0.8, height*0.95));
+  fill(0, random(200, 255), random(100, 230));
+  drawEyes();
+  drawMouth();
+  drawHair();
+}
+void drawEyes() {
+  fill(0, random(200, 255), random(100, 230));
+  x = int(random(175, 225));
+  y = int(random(190, 210));
+  a = int(random(275, 300));
+  b = int(random(190, 210));
+  ellipse(x, y, random(20, 35), random(20, 35));
+  ellipse(a, b, random(20, 35), random(20, 35));
+  fill(0);
+  ellipse(x, y, 3, 3);
+  ellipse(a, b, 3, 3);
+}
+void drawMouth() {
+  strokeWeight(random(10, 20));
+  noFill();
+  bezier(random(200, 230), random(400, 450), random(200, 230), random(400, 450), random(270, 300), random(400, 450), random(270, 300), random(400, 450));
+}
+void drawHair(){
+  stroke(0,random(50),random(50));
+
+
+ for (int i = 0; i < 50; i++){
+     bezier(random(75, 230), random(0, 150), random(75, 230), random(0, 150), random(270, 425), random(0, 150), random(270, 425), random(0, 150)); 
+ }
+
+  
+}
